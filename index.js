@@ -22,7 +22,7 @@ addFriend.addEventListener("click", function () {
 })
 removeFriend.addEventListener("click", function(){
     if(fin == 0){
-    removeFriend.innerHTML = "remove"
+    removeFriend.innerHTML = "Remove Friend"
     removeFriend.style.color = "red"
     fin = 1
     }else{
